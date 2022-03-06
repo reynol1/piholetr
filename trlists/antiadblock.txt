@@ -1,0 +1,83 @@
+!
+! This section contains the list of generic blocking rules.
+!
+! Good: .org0.0.0.0 /ads0.0.0.0 /
+! Bad: .org0.0.0.0 /ads0.0.0.0 /$domain=example.org (for instance, should be in speficic.txt)
+!
+!
+0.0.0.0 /video_onu_yeni.php?$~third-party,subdocument
+0.0.0.0 /_video_onu_yeni.php?$~third-party,subdocument
+
+0.0.0.0 /wp-content0.0.0.0 /uploads0.0.0.0 /*0.0.0.0 /hareketli.gif
+0.0.0.0 /thumb.php?src=*0.0.0.0 /images0.0.0.0 /banner0.0.0.0 /*
+0.0.0.0 /melbet728.gif
+0.0.0.0 /melbetvideo.mp4
+0.0.0.0 /melbet.mp4
+0.0.0.0 /escort.jpg
+0.0.0.0 /mankennn.gif
+0.0.0.0 /realistik-manken.gif
+0.0.0.0 /penimed.gif
+0.0.0.0 /sohbethat.gif
+0.0.0.0 /kiztavlama.gif
+0.0.0.0 /antalya.gif
+0.0.0.0 /arasana.gif
+0.0.0.0 /sohbet^$image,~third-party
+0.0.0.0 /pnsbyk.gif
+0.0.0.0 /pnsbyk2.gif
+0.0.0.0 /yenibyk.gif
+0.0.0.0 /yenibyk2.gif
+0.0.0.0 /sekssohbet.png
+0.0.0.0 /mankens.gif
+0.0.0.0 /selcuk.jpg
+0.0.0.0 /aysunweb.gif
+0.0.0.0 /popoz.php|$~third-party
+0.0.0.0 /gogo.php|$~third-party
+0.0.0.0 /splash.php|
+0.0.0.0 /numaras.js
+0.0.0.0 /sexsohbet.png
+0.0.0.0 /ban1.gif
+0.0.0.0 /ban2.gif
+0.0.0.0 /ban3.gif
+0.0.0.0 /ban4.gif
+0.0.0.0 /728.gif
+0.0.0.0 /yenisp.php
+0.0.0.0 /numarakayan.js
+0.0.0.0 /albet.
+^wp-content0.0.0.0 /uploads*0.0.0.0 /betpas
+.com0.0.0.0 /bannerlar0.0.0.0 /
+.tr0.0.0.0 /ads0.0.0.0 /
+.tr0.0.0.0 /AdServer0.0.0.0 /
+.tr0.0.0.0 /images0.0.0.0 /banners0.0.0.0 /
+0.0.0.0 /_js0.0.0.0 /adnet_
+0.0.0.0 /adaff.
+0.0.0.0 /adaff0.0.0.0 /*
+0.0.0.0 /adnet_async.
+0.0.0.0 /adnetset.
+0.0.0.0 /banner0.0.0.0 /*.gif
+0.0.0.0 /banners0.0.0.0 /sponsored
+0.0.0.0 /cdn-cgi0.0.0.0 /pe0.0.0.0 /bag2?r[]=*ifddigital.com
+0.0.0.0 /d0.0.0.0 /banner0.0.0.0 /*
+0.0.0.0 /ebulten0.0.0.0 /ebulten_
+0.0.0.0 /escort.php$script,third-party
+0.0.0.0 /escort300x*.php$script,third-party
+0.0.0.0 /escort372x*.php$script,third-party
+0.0.0.0 /incereklam.
+0.0.0.0 /leftreklam1.
+0.0.0.0 /leftreklam2.
+0.0.0.0 /rek.swf.html
+0.0.0.0 /reklam-$domain=~avansas.com|~gittigidiyor.com|~thegeyik.com|~tozlumagazin.net|~technopat.net
+0.0.0.0 /reklam.swf
+0.0.0.0 /reklam_$domain=~tozlumagazin.net
+0.0.0.0 /reklambelirteci.
+0.0.0.0 /reklamci0.0.0.0 /*
+0.0.0.0 /reklamlar.
+0.0.0.0 /reklamlar0.0.0.0 /*
+0.0.0.0 /reklamm.js
+0.0.0.0 /reklamsol.
+0.0.0.0 /reklamsplash.
+0.0.0.0 /reklamver.
+0.0.0.0 /rombahis-*.
+0.0.0.0 /servad.
+0.0.0.0 /supertotobet*.mp4
+0.0.0.0 /Thumbs0.0.0.0 /A_dvertisement0.0.0.0 /
+0.0.0.0 /wp-content0.0.0.0 /uploads0.0.0.0 /*_reklam.

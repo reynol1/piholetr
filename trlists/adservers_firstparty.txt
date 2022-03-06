@@ -1,0 +1,67 @@
+!
+! This section contains the list of advertising networks domains, which are hosted on non advertising sites as subdomains.
+! Note, that we only put rules that block full subdomains here and not URL parts (there's `general_url.txt` for that).
+!
+! Good: 0.0.0.0 ad.doubleclick.net^
+! Bad: /banner.jpg (should be in general_url.txt)
+! Bad: 0.0.0.0 legitwebsite.com^$third-party (should be in adservers.txt)
+!
+!
+0.0.0.0 adserver.bafrahaber.com^
+0.0.0.0 addata.exxen.com^
+0.0.0.0 ads.macsonuclari.mobi^
+0.0.0.0 ads.inegolonline.com^
+0.0.0.0 rek.yemlee.com^$third-party
+0.0.0.0 files.pbgiris.com^$third-party
+0.0.0.0 r20.club^$third-party
+0.0.0.0 reklam1.akhisar.bel.tr^
+0.0.0.0 partnerx.bethub.io^$all
+0.0.0.0 ttauri.livescience.com^
+0.0.0.0 adn.bursadabugun.com^
+0.0.0.0 ads-wordego.azureedge.net^
+0.0.0.0 adserver.a24.com.tr^
+0.0.0.0 sam.setimedia.com^
+0.0.0.0 ioi.seldos.com.tr^$third-party
+0.0.0.0 zafrc.5780.site^$third-party
+0.0.0.0 campaign.nmobs.com^
+0.0.0.0 bultenler.klscdn.com^$third-party
+0.0.0.0 kos.interseek.si^$third-party
+0.0.0.0 tagsadvancenative-glb8iionio2cozc.netdna-ssl.com^
+0.0.0.0 ad.logro.com.tr^
+0.0.0.0 ad.ntvmsnbc.com^
+0.0.0.0 ad.webservis.gen.tr^
+0.0.0.0 ad.yemeksepeti.com^
+0.0.0.0 ads.gercekgundem.com^
+0.0.0.0 ads.modabetaff.com^
+0.0.0.0 ads.nexage.com^
+0.0.0.0 ads.o-networkaffiliates.com^
+0.0.0.0 ads.oyungemisi.com^
+0.0.0.0 ads.sabah.com.tr^
+0.0.0.0 ads.skorfikstur.com^
+0.0.0.0 ads.sondakika.com^
+0.0.0.0 ads5.sabah.com.tr^
+0.0.0.0 adserve.donanimhaber.com^
+0.0.0.0 adsim.sabah.com.tr^
+0.0.0.0 adsp.ciner.com.tr^
+0.0.0.0 adsp.haberturk.com^
+0.0.0.0 androidads23.adcolony.com^
+0.0.0.0 banner.kanald.com.tr^
+0.0.0.0 banner.setrowid.com^
+0.0.0.0 banners.tempobet.com^
+0.0.0.0 edgead.woomedya.com^
+0.0.0.0 partnerad.l.google.com^
+0.0.0.0 reklam.arabul.com^
+0.0.0.0 reklam.arabul.com^
+0.0.0.0 reklam.bahisanaliz.com^
+0.0.0.0 reklam.emlakkulisi.com^
+0.0.0.0 reklam.memurlar.net^
+0.0.0.0 reklam.milliyet.com.tr^
+0.0.0.0 reklam.misli.com^
+0.0.0.0 reklam.mynet.com^
+0.0.0.0 reklam.softreklam.com^
+0.0.0.0 reklam.star.com.tr^
+0.0.0.0 reklam.vogel.com.tr^
+0.0.0.0 reklam.yonlendir.com^
+0.0.0.0 ad.sacitaslan.com^
+0.0.0.0 cdn.hiperadverts.com^
+0.0.0.0 savoy.cubecdn.net^
